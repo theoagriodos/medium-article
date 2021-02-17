@@ -1,0 +1,73 @@
+body {
+  background-color: #e5dfdf;
+  margin: 0;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 32px;
+}
+
+a {
+  background-color: #6ba8a9;
+  color: white;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+  color: #6ba8a9;
+  background-color: white;
+}
+
+.head {
+  color: white;
+  text-shadow: 0px 8px 30px rgba(0,0,0,0.3);
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.head h1 {
+  font-size: 68px;
+  width: 700px;
+  margin: 40px auto;
+}
+
+.head h2 {
+  width: 700px;
+  margin: 40px auto;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  color: #383e56;
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
